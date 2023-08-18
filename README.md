@@ -1,5 +1,5 @@
 # MyWay-Chat
 
-https://mounseflit.github.io/MyWay-Chat/ 
- or 
- https://mywaychat.surge.sh
+https://mounseflit.github.io/MyWay-Chat/ <br>
+ or <br>
+ https://mywaychat.surge.sh <br>
