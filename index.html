@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>chatroom</title>
+  <script type='text/javascript' src='script.min.js'></script>
+  <link rel="shortcut icon" type="x-icon" href="logo.png">
+  <link rel="stylesheet" href="style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <style>
+   
+  </style>
+</head>
+<body>
+  <div class="content">
+    <div class="messages">
+      <h1 style="color: white; text-align: center;">My Way messanger</h1>
+      <h4 style="color: white; text-align: center;"><a href="https://Roadmapper.surge.sh">My Way &nbsp; طريقي</a></h4>
+
+    </div>
+    <form class="footer" onsubmit="return false;">
+      <input type="text" placeholder="Your message..">
+      <button type="submit">Send</button>
+    </form>
+  </div>
+
+  <template data-template="message">
+    <div class="message">
+      <div class="message__name"></div>
+      <div class="message__bubble" id="t"></div>
+    </div>
+  </template>
+
+  <script src="script.js"></script>
+
+</body>
+</html>
