@@ -19,7 +19,7 @@ if (!location.hash) {
 }
 const chatHash = location.hash.substring(1);
 
-const drone = new ScaleDrone("yiS12Ts5RdNhebyM");
+const drone = new ScaleDrone("dLoPljYYeFH4tKGn");
 
 const roomName = "observable-" + chatHash;
 
